@@ -1,0 +1,23 @@
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main {
+  font-family: "Gowun Dodum", sans-serif;
+  font-style: italic;
+  font-size: 45px;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  padding: 100px;
+  margin: auto;
+}
+.myImage {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px; /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 250px; /* Set a small width */
+}
