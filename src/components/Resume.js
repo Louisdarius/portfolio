@@ -1,11 +1,7 @@
 import React from "react";
 import style from "../styles/Resume.module.css";
-import { Tabs, List, Avatar, Divider } from "antd";
-import {
-  AppleOutlined,
-  AndroidOutlined,
-  FileDoneOutlined,
-} from "@ant-design/icons";
+import { Tabs, Divider } from "antd";
+import { FileDoneOutlined } from "@ant-design/icons";
 
 const Resume = () => {
   const { TabPane } = Tabs;
@@ -31,7 +27,11 @@ const Resume = () => {
                     className={(style.col, style.col2)}
                     data-label="Institution"
                   >
-                    <a href="https://www.uel.ac.uk/" target="_blank">
+                    <a
+                      href="https://www.uel.ac.uk/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       University Of East London{" "}
                     </a>
                   </div>
@@ -44,7 +44,11 @@ const Resume = () => {
                     className={(style.col, style.col2)}
                     data-label="Institution"
                   >
-                    <a href="https://www.southessex.ac.uk/" target="_blank">
+                    <a
+                      href="https://www.southessex.ac.uk/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       South Essex College{" "}
                     </a>
                   </div>
@@ -57,7 +61,11 @@ const Resume = () => {
                     className={(style.col, style.col2)}
                     data-label="Institution"
                   >
-                    <a href="https://www.chasehigh.org/" target="_blank">
+                    <a
+                      href="https://www.chasehigh.org/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Chase High College{" "}
                     </a>
                   </div>
@@ -70,7 +78,11 @@ const Resume = () => {
                     className={(style.col, style.col2)}
                     data-label="Institution"
                   >
-                    <a href="https://southend-adult.ac.uk/" target="_blank">
+                    <a
+                      href="https://southend-adult.ac.uk/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Southend Adult Community College{" "}
                     </a>
                   </div>

@@ -1,32 +1,27 @@
 import React from "react";
-import { Link } from "react-dom";
 import project1 from "../photos/projects/project1.jpeg";
 import project2 from "../photos/projects/project2.jpeg";
 import project3 from "../photos/projects/project3.jpeg";
-import project4 from "../photos/projects/project4.jpeg";
-import project5 from "../photos/projects/project5.jpeg";
 import style from "../styles/Projects.module.css";
-import { Image } from "antd";
-import { Card, Avatar, Button } from "antd";
-import { EditOutlined } from "@ant-design/icons";
+import { Button } from "antd";
 
-const { Meta } = Card;
+// const { Meta } = Card;
 
 const Projects = () => {
-  const projectList = [
-    {
-      title: "COVID 19",
-      description: "",
-      imgSrc: "",
-      link: "https://louis-darius-covid19-client.vercel.app",
-    },
-    {
-      title: "Contacts",
-      description: "",
-      imgSrc: "",
-      link: "https://contact-client.vercel.app",
-    },
-  ];
+  // const projectList = [
+  //   {
+  //     title: "COVID 19",
+  //     description: "",
+  //     imgSrc: "",
+  //     link: "https://louis-darius-covid19-client.vercel.app",
+  //   },
+  //   {
+  //     title: "Contacts",
+  //     description: "",
+  //     imgSrc: "",
+  //     link: "https://contact-client.vercel.app",
+  //   },
+  // ];
   return (
     <React.Fragment>
       {/* <h2> My projects</h2>

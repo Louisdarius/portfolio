@@ -13,6 +13,7 @@ const AboutMe = () => {
           <Col span={7}>
             <img
               src={photo}
+              alt=""
               // Style for avatar
               // style={{
               //   verticalAlign: "middle",
