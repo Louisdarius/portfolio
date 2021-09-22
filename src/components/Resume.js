@@ -16,15 +16,15 @@ const Resume = () => {
               {/* <h2>Education </h2> */}
               <ul className={style.responsiveTable}>
                 <li className={style.tableHeader}>
-                  <div className={(style.col, style.col1)}>Year</div>
-                  <div className={(style.col, style.col2)}>Institution</div>
+                  <div className={style.col && style.col1}>Year</div>
+                  <div className={style.col && style.col2}>Institution</div>
                 </li>
                 <li className={style.tableRow}>
-                  <div className={(style.col, style.col1)} data-label="Year">
+                  <div className={style.col && style.col1} data-label="Year">
                     2019 - Present
                   </div>
                   <div
-                    className={(style.col, style.col2)}
+                    className={style.col && style.col2}
                     data-label="Institution"
                   >
                     <a
@@ -37,11 +37,11 @@ const Resume = () => {
                   </div>
                 </li>
                 <li className={style.tableRow}>
-                  <div className={(style.col, style.col1)} data-label="Year">
+                  <div className={style.col && style.col1} data-label="Year">
                     2015 - 2017{" "}
                   </div>
                   <div
-                    className={(style.col, style.col2)}
+                    className={style.col && style.col2}
                     data-label="Institution"
                   >
                     <a
@@ -54,11 +54,11 @@ const Resume = () => {
                   </div>
                 </li>
                 <li className={style.tableRow}>
-                  <div className={(style.col, style.col1)} data-label="Year">
+                  <div className={style.col && style.col1} data-label="Year">
                     2012 - 2014{" "}
                   </div>
                   <div
-                    className={(style.col, style.col2)}
+                    className={style.col && style.col2}
                     data-label="Institution"
                   >
                     <a
@@ -71,11 +71,11 @@ const Resume = () => {
                   </div>
                 </li>
                 <li className={style.tableRow}>
-                  <div className={(style.col, style.col1)} data-label="Year">
+                  <div className={style.col && style.col1} data-label="Year">
                     2011 - 2012
                   </div>
                   <div
-                    className={(style.col, style.col2)}
+                    className={style.col && style.col2}
                     data-label="Institution"
                   >
                     <a
