@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../styles/Top.module.css";
 import topImage from "../photos/top/top.png";
-import { Button, Col, Row } from "antd";
 
 const Top = () => {
   return (

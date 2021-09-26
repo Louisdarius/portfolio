@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../styles/Skills.module.css";
 import { Tabs, Divider } from "antd";
-import { FileDoneOutlined } from "@ant-design/icons";
 
 const Skills = () => {
   const { TabPane } = Tabs;

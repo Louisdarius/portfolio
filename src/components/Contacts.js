@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../styles/Contacts.module.css";
-import { Row, Col, Divider } from "antd";
+import { Divider } from "antd";
 import {
   PhoneOutlined,
   MailOutlined,

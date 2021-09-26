@@ -1,6 +1,5 @@
 import React from "react";
 import style from "../styles/Nav.module.css";
-import AboutMe from "./AboutMe";
 
 const Nav = () => {
   return (

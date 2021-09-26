@@ -4,7 +4,7 @@ import toDoList from "../photos/projects/toDoList.png";
 import covid19 from "../photos/projects/covid19.png";
 import contacts from "../photos/projects/contacts.png";
 import style from "../styles/Projects.module.css";
-import { Row, Col, Button } from "antd";
+import { Row, Col } from "antd";
 
 // const { Meta } = Card;
 
