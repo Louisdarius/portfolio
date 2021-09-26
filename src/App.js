@@ -13,12 +13,24 @@ function App() {
     <React.Fragment>
       {/* <div className="App"> */}
       <Nav />
-      <Top />
-      <AboutMe />
-      <Resume />
-      <Projects />
-      <Skills />
-      <Contacts />
+      <session id="top">
+        <Top />
+      </session>
+      <session id="aboutMe">
+        <AboutMe />
+      </session>
+      <session id="resume">
+        <Resume />
+      </session>
+      <session id="projects">
+        <Projects />
+      </session>
+      <session id="skills">
+        <Skills />
+      </session>
+      <session id="contacts">
+        <Contacts />
+      </session>
       {/* </div> */}
     </React.Fragment>
   );

@@ -1,4 +1,8 @@
 /* The navigation bar */
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;

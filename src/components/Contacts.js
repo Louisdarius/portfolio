@@ -11,8 +11,15 @@ import {
 const Contacts = () => {
   return (
     <React.Fragment>
-      <Row className={style.mainContainer}>
-        <Col span={10}>
+      <div className={style.row}>
+        <div className={style.col4}> ohmogiuh</div>
+        <div className={style.col8}> khifhmifu</div>
+      </div>
+      <div className={style.row}>
+        {/* <Row className={style.mainContainer && style.row}> */}
+
+        {/* <Col span={7} className={style.col7}> */}
+        <div className={style.col5}>
           <div className={style.container}>
             <p>
               The contact form is temporaraly disabled. Please contact me using
@@ -36,8 +43,11 @@ const Contacts = () => {
             </p>
             <Divider />
           </div>
-        </Col>
-        <Col span={14}>
+          {/* </Col> */}
+        </div>
+
+        <div className={style.col7}>
+          {/* <Col span={10} className={style.col10}> */}
           <div className={style.container}>
             <form>
               <label for="fname">First Name</label>
@@ -66,8 +76,11 @@ const Contacts = () => {
               <input type="submit" value="Submit" disabled />
             </form>
           </div>
-        </Col>
-      </Row>
+          {/* </Col> */}
+        </div>
+      </div>
+
+      {/* </Row> */}
     </React.Fragment>
   );
 };

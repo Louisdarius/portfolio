@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title {
+  color: white;
+  font-family: "Gowun Dodum", sans-serif;
+  background-color: teal;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
+}

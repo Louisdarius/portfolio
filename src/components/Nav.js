@@ -1,5 +1,6 @@
 import React from "react";
 import style from "../styles/Nav.module.css";
+import AboutMe from "./AboutMe";
 
 const Nav = () => {
   return (
@@ -7,8 +8,8 @@ const Nav = () => {
       <nav className={style.navbar}>
         <a href="#top">Home</a>
         <a href="#aboutMe">About Me</a>
-        <a href="#aboutMe">Projects</a>
-        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contacts">Contacts</a>
       </nav>{" "}

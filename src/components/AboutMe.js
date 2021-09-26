@@ -10,21 +10,11 @@ const AboutMe = () => {
       <div className={style.main}>
         <h2 className={style.header}> About Me</h2>
         <Row>
-          <Col span={7}>
-            <img
-              src={photo}
-              alt=""
-              // Style for avatar
-              // style={{
-              //   verticalAlign: "middle",
-              //   width: "270px",
-              //   height: "350px",
-              //   borderRadius: "50%",
-              // }}
-              className={style.myImage}
-            />
+          <Col xs={24} sm={24} md={24} lg={6} xl={6}>
+            <img src={photo} alt="" className={style.myImage} />
           </Col>
-          <Col span={17}>
+
+          <Col xs={24} sm={24} md={24} lg={18} xl={18}>
             <p>
               I am a third year computer science student at the university of
               east london graduating in July 2022. <br />

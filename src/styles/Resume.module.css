@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "lato", sans-serif;
 }
@@ -74,8 +78,7 @@ span {
 }
 
 .main {
-  margin-left: 100px;
-  margin-right: 50px;
+  margin: 70px;
   /* background-color: #778899; */
   background-color: #c0c0c0;
   border-radius: 2%;
