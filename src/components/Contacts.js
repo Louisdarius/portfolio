@@ -4,6 +4,7 @@ import { Divider } from "antd";
 import {
   PhoneOutlined,
   MailOutlined,
+  LinkedinOutlined,
   InstagramOutlined,
   GithubOutlined,
 } from "@ant-design/icons";
@@ -12,18 +13,17 @@ const Contacts = () => {
   return (
     <React.Fragment>
       <div className={style.row}>
-        <div className={style.col4}> ohmogiuh</div>
-        <div className={style.col8}> khifhmifu</div>
-      </div>
-      <div className={style.row}>
         {/* <Row className={style.mainContainer && style.row}> */}
 
         {/* <Col span={7} className={style.col7}> */}
         <div className={style.col5}>
           <div className={style.container}>
             <p>
-              The contact form is temporaraly disabled. Please contact me using
-              the details below.
+              {" "}
+              <b>
+                The contact form is temporaraly disabled. Please contact me
+                using the details below.{" "}
+              </b>
             </p>
             <Divider />
             <p>
@@ -35,11 +35,15 @@ const Contacts = () => {
             </p>
             <Divider />
             <p>
-              <InstagramOutlined /> <span>Louis_darius</span>
+              <GithubOutlined /> <span>Louisdarius</span>
             </p>
             <Divider />
             <p>
-              <GithubOutlined /> <span>Louisdarius</span>
+              <LinkedinOutlined /> <span>Louis Hounvio</span>
+            </p>
+            <Divider />
+            <p>
+              <InstagramOutlined /> <span>Louis_darius</span>
             </p>
             <Divider />
           </div>

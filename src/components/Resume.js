@@ -8,8 +8,8 @@ const Resume = () => {
 
   return (
     <React.Fragment>
+      <h2 className={style.header}> Resume</h2>
       <div className={style.main}>
-        <h2> Resume</h2>
         <Tabs defaultActiveKey="1" className={style.main}>
           <TabPane tab={<h3>Education</h3>} key="1">
             <div className={style.container}>

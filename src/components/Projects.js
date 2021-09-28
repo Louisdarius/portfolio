@@ -11,92 +11,9 @@ import { Row, Col } from "antd";
 const Projects = () => {
   return (
     <React.Fragment>
-      {/* <!-- MAIN (Center website) --> */}
-      {/* <div class={style.main}>
-        <h2>Projects</h2>
-        <div className={style.row}>
-          <div className={style.column}>
-            <div className={style.content}>
-              <a
-                href=" https://louisdarius.github.io/Solar-Energy"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  src={solarEnergy}
-                  alt="Mountains"
-                  style={{ width: "100%" }}
-                />
-              </a>
-              <h3>My Work</h3>
-              <p>
-                Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-                necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-                sit amet, tempor prodesset eos no.
-              </p>
-            </div>
-          </div>
-          <div className={style.column}>
-            <div className={style.content}>
-              <a
-                href="https://louisdarius.github.io/To-do-list/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  src={toDoList}
-                  alt="Lights"
-                  style={{ width: "100%" }}
-                />{" "}
-              </a>
-              <h3>My Work</h3>
-              <p>
-                Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-                necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-                sit amet, tempor prodesset eos no.
-              </p>
-            </div>
-          </div>
-          <div className={style.column}>
-            <div className={style.content}>
-              <a
-                href="https://louis-darius-covid19-client.vercel.app"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={covid19} alt="Nature" style={{ width: "100%" }} />
-              </a>
-              <h3>My Work</h3>
-              <p>
-                Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-                necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-                sit amet, tempor prodesset eos no.
-              </p>
-            </div>
-          </div>
-          <div className={style.column}>
-            <div className={style.content}>
-              <a
-                href="https://contact-client.vercel.app"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={contacts} alt="Mountains" style={{ width: "100%" }} />
-              </a>
-              <h3>My Work</h3>
-              <p>
-                Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-                necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-                sit amet, tempor prodesset eos no.
-              </p>
-            </div>
-          </div>
+      <h2 className={style.header}> Projects </h2>
 
-        </div>
-      </div> */}
       <div className={style.main}>
-        <h2> Projects </h2>
         <Row>
           <Col span={12} className={style.col}>
             <a
@@ -110,12 +27,6 @@ const Projects = () => {
                 style={{ width: "100%" }}
               />
             </a>
-            <h3>My Work</h3>
-            <p>
-              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-              sit amet, tempor prodesset eos no.
-            </p>
           </Col>
           <Col span={12} className={style.col}>
             <a
@@ -126,12 +37,6 @@ const Projects = () => {
               {" "}
               <img src={toDoList} alt="Lights" style={{ width: "100%" }} />{" "}
             </a>
-            <h3>My Work</h3>
-            <p>
-              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-              sit amet, tempor prodesset eos no.
-            </p>
           </Col>
         </Row>
 
@@ -144,12 +49,6 @@ const Projects = () => {
             >
               <img src={covid19} alt="Nature" style={{ width: "100%" }} />
             </a>
-            <h3>My Work</h3>
-            <p>
-              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-              sit amet, tempor prodesset eos no.
-            </p>
           </Col>
           <Col span={12} className={style.col}>
             <a
@@ -159,12 +58,6 @@ const Projects = () => {
             >
               <img src={contacts} alt="Mountains" style={{ width: "100%" }} />
             </a>
-            <h3>My Work</h3>
-            <p>
-              Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus
-              necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor
-              sit amet, tempor prodesset eos no.
-            </p>
           </Col>
         </Row>
       </div>

@@ -15,7 +15,13 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
-
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Gowun Dodum", sans-serif;
+  font-style: italic;
+}
 h2 {
   font-size: 26px;
   margin: 20px 0;

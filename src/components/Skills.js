@@ -7,9 +7,8 @@ const Skills = () => {
 
   return (
     <React.Fragment>
-      <h2>My Skills</h2>
+      <h2 className={style.header}>My Skills</h2>
       <div className={style.main}>
-        <h2> Resume</h2>
         <Tabs defaultActiveKey="1" className={style.main}>
           <TabPane tab={<h3>Web-backend</h3>} key="1">
             <div className={style.container}>

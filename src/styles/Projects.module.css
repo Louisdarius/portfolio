@@ -6,7 +6,7 @@
   border-radius: 2%;
   background-color: #f5fffa;
   /* padding: 100px; */
-  margin: 70px;
+  margin: 50px;
 }
 .col {
   margin-top: 20px;
@@ -16,4 +16,11 @@
 
 .border {
   border: 5px solid black;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Gowun Dodum", sans-serif;
+  font-style: italic;
 }
